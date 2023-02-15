@@ -5,7 +5,7 @@ import { ProductsService } from './products.service';
 @Controller('products')
 export class ProductsController {
   constructor(private productsService: ProductsService) {}
-  @Get('list')
+  @Get()
   async findAll(): Promise<Products[]> {
     return this.productsService.findAll();
   }
