@@ -1,1 +1,1 @@
-# ec-demo
+# EC Demo
